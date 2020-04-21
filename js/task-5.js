@@ -1,7 +1,5 @@
 let userInput = prompt('Укажите страну для доставки');
-if (userInput === null) {
-  console.log('Отменено пользователем!');
-} else if (userInput !== null && userInput !== '') {
+if (userInput !== null && userInput !== '') {
   userInput = userInput.toLowerCase();
   switch (userInput) {
     case 'китай':
